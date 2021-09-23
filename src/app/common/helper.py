@@ -6,7 +6,7 @@ from botocore.exceptions import ClientError
 
 from enum import Enum
 from datetime import datetime
-
+from app.core.config import  settings
 
 class STRING_TYPES(Enum):
     def __str__(self):
